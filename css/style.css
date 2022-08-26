@@ -1,0 +1,63 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+main{
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.781));
+}
+
+.banner{
+width: 100%;
+height: 400px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    margin: 0%;
+    background-color: gray;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    color: red;
+}
+
+.texto-index{
+    color: white;
+}
+
+.nav-color{
+    background-color: black;
+}
+
+header a{
+    color: white !important;
+}
+
+.dropdown-menu{
+    background-color: black;
+}
+
+.youtube{
+    margin-left: 35%;
+}
+/* Pagina Conocenos */
+
+
+section {
+    color: white;
+    margin: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50%;
+    align-items: center;
+    padding: 10px;
+}
