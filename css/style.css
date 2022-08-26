@@ -121,3 +121,49 @@ justify-content: center;
 .accordion-button{
     color: red !important;
 }
+
+/* Pagina Programas */
+
+.only-fight{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.575), black, rgba(255, 0, 0, 0.575));
+   display: grid;
+   justify-items: center
+}
+
+.only-fight h1{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.only-fight img, .blast-training img, .ultra-cycle img{
+    margin-bottom: 15px;
+}
+
+
+.blast-training{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.575), black, rgba(0, 0, 255, 0.575));
+    display: grid;
+   justify-items: center
+}
+
+.blast-training h1{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.ultra-cycle{
+    background-image: linear-gradient(rgba(0, 128, 0, 0.582), black, rgba(0, 128, 0, 0.575));
+    display: grid;
+   justify-items: center
+}
+
+.ultra-cycle h1{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
