@@ -19,9 +19,23 @@ h1 {
     padding: 10px;
 }
 
-.banner {
-    width: 100%;
-    height: 400px;
+/* navbar */
+
+.nav-color {
+    background-color: black;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    font-weight: bold;
+}
+
+header a {
+    color: white !important;
+}
+
+.dropdown-menu {
+    background-color: black;
 }
 
 /* Footer */
@@ -65,25 +79,15 @@ footer ul li a:active {
     transform: scale(1.5, 1.5);
 }
 
+/* inicio */
+
+.banner {
+    width: 100%;
+    height: 400px;
+}
+
 .texto-index {
     color: white;
-}
-
-.nav-color {
-    background-color: black;
-}
-
-.nav-link:hover,
-.navbar-brand:hover {
-    font-weight: bold;
-}
-
-header a {
-    color: white !important;
-}
-
-.dropdown-menu {
-    background-color: black;
 }
 
 .frame {
@@ -212,7 +216,6 @@ header a {
 .ultra-cycle img {
     height: 40vh;
 }
-
 
 /* Pagina Galeria */
 
